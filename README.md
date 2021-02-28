@@ -4,7 +4,7 @@ Gilded Rose is a small inn buy and sell the finest goods. We have a system in pl
 
 ### The system
 - For each day, this program runs to calculate the quality of each item
-- Different items has different rules
+- Different items have different rules
 
 ### Current specification
 - All items have a SellIn value which denotes the number of days we have to sell the item
