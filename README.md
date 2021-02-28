@@ -23,7 +23,7 @@ Gilded Rose is a small inn buying and selling the finest goods. We have a system
 
 ### The code
 - Item and GildedRose class are used by others therefore have to be backward-compatible after the change
-- TextTestFixture contains a simple list of items and the logic used by the last developer to show the results, is open to change
+- TextTestFixture contains a simple list of items as example and the logic used by the last developer to show the results, is open to change
 
 ### The Task
 - Review and refactor the current code
