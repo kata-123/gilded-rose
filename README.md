@@ -19,7 +19,12 @@ Gilded Rose is a small inn buy and sell the finest goods. We have a system in pl
 
 ### Clarification
 - An item can never have its Quality increase above 50, however "Sulfuras" is a legendary item and as such its Quality is 80 and it never alters.
+- The types of item e.g. "Backstage passes" is identified from the name of the item
 
-### Our Task
+### The code
+- Item and GildedRose class are used by others therefore have to be backward-compatible after the change
+- TextTestFixture contains a simple list of items and the logic used by the last developer to show the results, is open to change
+
+### The Task
 - Review and refactor the current code
 - Add support to a new type of item "Conjured", with the rule: "Conjured" items degrade in Quality twice as fast as normal items
