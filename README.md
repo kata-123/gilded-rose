@@ -23,6 +23,3 @@ Gilded Rose is a small inn buy and sell the finest goods. We have a system in pl
 ### Our Task
 - Review and refactor the current code
 - Add support to a new type of item "Conjured", with the rule: "Conjured" items degrade in Quality twice as fast as normal items
-
-### Constraint
-- Cannot alter the Item class and its properties
