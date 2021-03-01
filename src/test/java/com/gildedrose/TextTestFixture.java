@@ -2,7 +2,6 @@ package com.gildedrose;
 
 public class TextTestFixture {
     public static void main(String[] args) {
-        System.out.println("OMGHAI!");
 
         Item[] items = new Item[]{
                 new Item("+5 Dexterity Vest", 10, 20), //
@@ -15,6 +14,7 @@ public class TextTestFixture {
                 new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),
                 // this conjured item does not work properly yet
                 new Item("Conjured Mana Cake", 3, 6)};
+                new Item("Conjured Birthday Cake", 3, 6)};
 
         GildedRose app = new GildedRose(items);
 
